@@ -1,6 +1,17 @@
-body{
-    font-family:"Martel Sans", sans-serif ;
+/**effects**/
+.border {
+    border: 1px solid transparent;
 }
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+body {
+    font-family: "Martel Sans", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -72,4 +83,88 @@ body{
     position: relative;
     z-index: 10;
 
+}
+
+/**SECTION_1 STARTS**/
+.promo {
+
+    height: 37.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.promo_container {
+
+    height: 37.5rem;
+    width: 68.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.promo_text {
+
+    height: 5.25rem;
+    width: 32.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading {
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 2.85rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.promo_line {
+    height: 1.25rem;
+    width: 33.188rem;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.promo_intro {
+    height: 1.25rem;
+    width: 33.188rem;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.search_input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 3.75rem;
+    width: 20rem;
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.search_but{
+    border: none;
+    background-color: #E50914;
+    color: white;
+    height: 3.75rem;
+    width: 11.563rem;
+    border-radius: 5px;
+    font-size: 1.5rem ;
+    font-weight: 400;
+    text-align: center;
+    
 }
