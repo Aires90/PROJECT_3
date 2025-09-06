@@ -156,15 +156,57 @@ body {
     text-align: center;
     color: white;
 }
-.search_but{
+
+.search_but {
     border: none;
     background-color: #E50914;
     color: white;
     height: 3.75rem;
     width: 11.563rem;
     border-radius: 5px;
-    font-size: 1.5rem ;
+    font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
+}
+#first{
+    background-color: black;
+}
+.hero_section {
+    height: 145rem;
+    background-color: black;
+    opacity: 0.75;
+    width: 100%;
+    border: 2xp solid #E50914;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.trending_page {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+}
+
+.gradient {
+    position: relative;
+    top: 0;
+    z-index: -4;
+    box-sizing: border-box;
+    height: 12.25rem;
+    width: 100%;
+    border-radius: 10px;
+    background-image: radial-gradient(ellipse at top, #B0BBBF 0%,black 60%,transparent 25%);
+    filter: blur(3px);
     
+}
+
+
+.space {
+    color: white;
+    font-size: 1rem;
+    margin-left: 80px;
 }
