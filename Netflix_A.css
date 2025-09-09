@@ -30,7 +30,7 @@ body {
 
 .back-img {
     background-color: black;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     opacity: 0.75;
     position: absolute;
@@ -104,6 +104,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    z-index: 10;
 
 }
 
@@ -156,15 +158,112 @@ body {
     text-align: center;
     color: white;
 }
-.search_but{
+
+.search_but {
     border: none;
     background-color: #E50914;
     color: white;
     height: 3.75rem;
     width: 11.563rem;
     border-radius: 5px;
-    font-size: 1.5rem ;
+    font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
-    
+}
+
+#first {
+    background-color: black;
+    position: relative;
+}
+
+.hero_section {
+    height: 145rem;
+    width: 100%;
+
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.trending_page {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+}
+
+.gradient {
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    height: 12.25rem;
+    width: 100%;
+    border-radius: 10px;
+    background-image: radial-gradient(ellipse at top, #B0BBBF 0%, black 60%, transparent 25%);
+    filter: blur(2px);
+
+}
+
+.space {
+    color: white;
+    opacity: 1;
+    font-size: 1rem;
+    margin-left: 80px;
+    position: relative;
+    z-index: 10;
+}
+
+.box_1 {
+    width: 100%;
+    height: 14.5rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.b {
+    height: 200px;
+    width: 160px;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    background-color: #B0BBBF;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    z-index: 20;
+    border-radius: 10px;
+
+}
+
+.numbers {
+    color: white;
+    font-size: 2.8rem;
+    position: relative;
+    z-index: 20;
+    top: 140px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0.75;
+
+}
+
+.b:hover {
+    box-shadow: 15px 6px 30px -8px #B0BBBF;
+}
+
+.promo_2 {
+    width: 100%;
+    text-align: center;
+    height: 6.25rem;
+    position: relative;
+    z-index: 10;
+    top: 100px;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
 }
