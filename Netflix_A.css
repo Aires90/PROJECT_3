@@ -177,7 +177,7 @@ body {
 }
 
 .hero_section {
-    height: 145rem;
+    height: 36.25rem;
     width: 100%;
 
     border-bottom: none;
@@ -266,4 +266,42 @@ body {
     font-family: "Martel Sans", sans-serif;
     font-weight: 700;
     font-size: 1rem;
+}
+.query{
+    height: 1.25rem ;
+    color: whitesmoke;
+    font-size: 1rem;
+    padding-left: 180px;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+.footer_container{
+    background-color: black;
+    height: 17.5rem;
+    width: 100%;
+}
+.help_container{
+    margin-top: 20px;
+    height: 9.375rem ;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container1{
+    height: 3.125rem;
+    position: relative;
+    z-index: 3;
+}
+.container1 p{
+    color: white;
+}
+.lang{
+    padding-left: 185px;
+}
+.logo_text{
+    color: #B0BBBF;
+    font-size: 1rem;
+    padding-left: 185px;
+    margin-top: 10px;
 }
